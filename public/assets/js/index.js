@@ -34,7 +34,7 @@ const getNotes = () =>
   });
 
 const saveNote = (note) =>
-  fetch('/api/notes', {
+  fetch('https://git.heroku.com/blueberry-pudding-33694.git', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
